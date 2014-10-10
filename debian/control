@@ -1,0 +1,25 @@
+Source: python-riemann-client
+Maintainer: Alexandre Viau <alexandre@alexandreviau.net>
+Homepage: https://github.com/borntyping/python-riemann-client
+Section: python
+X-Python-Version: >= 2.7
+X-Python3-Version: >= 3.3
+Priority: optional
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               python-all,
+               python-setuptools,
+               python-pytest,
+               python-click,
+               python-protobuf
+Standards-Version: 3.9.6
+
+Package: python-riemann-client
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, python-click, python-protobuf
+Description: Riemann client library and command line tool for Python
+ Supports UDP and TCP transports, queries, and all metric types. The
+ client library aims to provide a simple, minimal API does not require
+ direct interaction with protocol buffers. There is also a queued client
+ that can queue or batch events and then send them in a single message.
+

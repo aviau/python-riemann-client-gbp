@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+
+export PYBUILD_NAME=riemann-client
+export PYBUILD_TEST_PYTEST=1
+export PYBUILD_TEST_ARGS={dir}/riemann_client/tests/ -v
+
+%:
+	dh $@ --with python2 --buildsystem=pybuild
+
+override_dh_usrlocal:
