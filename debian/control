@@ -1,6 +1,8 @@
 Source: python-riemann-client
 Maintainer: Alexandre Viau <alexandre@alexandreviau.net>
 Homepage: https://github.com/borntyping/python-riemann-client
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/python-riemann-client.git
+Vcs-Git: git://anonscm.debian.org/collab-maint/python-riemann-client.git
 Section: python
 X-Python-Version: >= 2.7
 X-Python3-Version: >= 3.3
