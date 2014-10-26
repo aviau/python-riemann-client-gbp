@@ -6,5 +6,3 @@ export PYBUILD_TEST_ARGS={dir}/riemann_client/tests/ -v
 
 %:
 	dh $@ --with python2 --buildsystem=pybuild
-
-override_dh_usrlocal:
