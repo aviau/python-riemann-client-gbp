@@ -21,7 +21,7 @@ Architecture: all
 Depends: ${misc:Depends}, ${python:Depends}, python-click, python-protobuf
 Description: Riemann client library and command line tool for Python
  Supports UDP and TCP transports, queries, and all metric types. The
- client library aims to provide a simple, minimal API does not require
- direct interaction with protocol buffers. There is also a queued client
- that can queue or batch events and then send them in a single message.
-
+ client library aims to provide a simple, minimal API, and does not
+ require direct interaction with protocol buffers. There is also a
+ queued client that can queue or batch events and then send them in a
+ single message.
